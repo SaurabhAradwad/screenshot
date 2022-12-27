@@ -45,6 +45,10 @@ def on_press(key):
 
     try:
         key_press = key.char.lower()
+    except:
+        pass
+
+    try:
         key = key.vk
     except:
         pass
